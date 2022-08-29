@@ -83,6 +83,22 @@ def apple(apple_color):
 apple((222, 96, 42))
 ```
 
+The background colour can be changed using the background function. To set it to green, one would enter: 
+```
+background(G)
+```
+
+Characters can be displayed using the character function: 
+To display the letter A one would enter: 
+```
+character('A')
+```
+
+The colour of the letter can be set using a second parameter handed over to the character function, and the background can be specified with a third parameter. A green A on a red background would be written as: 
+```
+character('A', G, R)
+```
+
 
 You can use the [editor on GitHub](https://github.com/PyKoch/PyKoch.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
