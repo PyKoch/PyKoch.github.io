@@ -1,5 +1,34 @@
 ## Welcome to the imagiCharm World! 
 
+### Lesson 1: 
+
+Pixels labelled by row first, then column, e.g. to turn the pixel of row 2 and column 4 on you enter: 
+```markdown
+m[2][4]=on 
+```
+
+Instead of just turning on the pixel, you can assign it a specific colour. The following will turn the pixel red (R). 
+```markdown
+m[2][4]=R
+```
+
+If you want to go a step further, you can specify an RGB (red-green-blue) colour. The colour is assigned by given each of the three colours an intensity value between 0 and 255. So red would be purely red, i.e. the values for green and blue would be 0: (255, 0, 0). 
+
+```markdown
+m[2][4]= (255, 0, 0) 
+```
+
+You can set a blink rate for the pattern drawn. The chosen pixel will now blink twice a second. 
+```markdown
+m[2][4]= (255, 0, 0) 
+blinkrate = 2 
+```
+
+## Lesson 2: 
+
+
+
+
 You can use the [editor on GitHub](https://github.com/PyKoch/PyKoch.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -28,10 +57,3 @@ Syntax highlighted code block
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PyKoch/PyKoch.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
